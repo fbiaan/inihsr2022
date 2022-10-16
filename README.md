@@ -4,7 +4,7 @@
 
 ## Proyecto
 👋 Este Repositorio corresponde al equipo HTR CLOUD de PROSEGUR 👋
-
+Descripcion : API for integration of RRHH core systems
 
 ## REQUISITOS 
 
@@ -14,9 +14,9 @@
 * Permisos de Git.
 
 
-### Requisitos de despliegue 
+### Requisitos de compilacion 
 
-Necesitas contar con Java 11 , lo puedes instalar ingresando a esta pagina de acuerdo al sistema opertivo usando [instalador](https://www.oracle.com/java/technologies/downloads/#java11)
+Necesitas contar con Java 11 , lo puedes instalar ingresando a esta pagina de acuerdo al sistema opertivo usando este [instalador](https://www.oracle.com/java/technologies/downloads/#java11)
 
 Otro requisito es Maven instalado ,  se puede descargar en este [link](https://maven.apache.org/download.cgi)
 
@@ -43,10 +43,10 @@ En caso de ser la primera vez que usas Lombok , es necesario realizar la instala
 ![Seguridad](documentation/images/seguridad.jpg)
 
 
-####Base de datos
+### Base de datos
 Se necesita **registrar** la IP publica de la cual se va a acceder, ademas de las credenciales de acceso. Solicite al Proyect Lider este proceso.
 
-####Vault🔒
+### Vault🔒
 Haciendo uso de Vault se ha conseguido sacar afuera del entorno de desarrollo el almacenamiento de secretos de nuestras aplicaciones.
 El equipo de desarrollo solo necesita conocer la ruta de acceso para cada uno de los entornos en los que la aplicación sera desplegada.
 
@@ -64,6 +64,11 @@ Despliegues
 | HCM     | LAB|
 | Meta4    | |
 
-Para entornos de desarrollo es necesario declara la variable de entorno TOKEN_VAULT con un valor correcto para su autenticación , dicho valor es provisto por el Proyect Lider. 
+Para entornos de desarrollo es necesario declarar la *variable de entorno* TOKEN_VAULT con un valor correcto para su autenticación , dicho valor es provisto por el Proyect Lider. 
 
-##Licencia
+### Depliegue e infraestructura
+![despliegue](documentation/images/azuerkuber.jpg)
+
+---
+## Licencia
+---
