@@ -3,12 +3,12 @@
 # CORE API | HTR CLOUD INTEGRATION
 
 ## Proyecto
-Es Repositorio corresponde al equipo HTR CLOUD de PROSEGUR.
+👋 Este Repositorio corresponde al equipo HTR CLOUD de PROSEGUR 👋
 
 
 ## REQUISITOS 
 
-###Requisitos de acceso
+### Requisitos de acceso
 
 * Vpn conectada.
 * Permisos de Git.
@@ -21,12 +21,22 @@ Necesitas contar con Java 11 , lo puedes instalar ingresando a esta pagina de ac
 Otro requisito es Maven instalado ,  se puede descargar en este [link](https://maven.apache.org/download.cgi)
 
 ### Dependencias Principales
-	*org.springframework.cloud
-	*org.postgresql
-	*com.google.code.gson
-	*org.projectlombok
+	org.springframework.cloud
+	org.postgresql
+	com.google.code.gson
+	org.projectlombok
 	
-En caso de ser necesario el instalador de Lombok es [este](https://projectlombok.org/download)
+---
+
+#### 👉❓ **Instalación de Lombok**
+
+En caso de ser la primera vez que usas Lombok , es necesario realizar la instalación del mismo.
+
+🔗 **🏳URL**: https://projectlombok.org/download
+
+---
+
+
 
 
 ## Seguridad
@@ -34,8 +44,26 @@ En caso de ser necesario el instalador de Lombok es [este](https://projectlombok
 
 
 ####Base de datos
-Se necesita registrar la IP publica de la cual se va a acceder, ademas de las credenciales de acceso. Solicite al Proyect Lider este proceso.
+Se necesita **registrar** la IP publica de la cual se va a acceder, ademas de las credenciales de acceso. Solicite al Proyect Lider este proceso.
 
-####Vault
-Ademas de las dependencias necesarias en el proyecto sobre 
+####Vault🔒
+Haciendo uso de Vault se ha conseguido sacar afuera del entorno de desarrollo el almacenamiento de secretos de nuestras aplicaciones.
+El equipo de desarrollo solo necesita conocer la ruta de acceso para cada uno de los entornos en los que la aplicación sera desplegada.
 
+Archivos 
+*postgres
+*HCM
+*Meta4
+Despliegues 
+*Dev 
+*Lab
+
+| Archivos | Despliegues|
+| ----- | -------------------------------------------- |
+| Postgres| DEV|
+| HCM     | LAB|
+| Meta4    | |
+
+Para entornos de desarrollo es necesario declara la variable de entorno TOKEN_VAULT con un valor correcto para su autenticación , dicho valor es provisto por el Proyect Lider. 
+
+##Licencia
