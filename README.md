@@ -13,7 +13,7 @@ Es Repositorio corresponde al equipo HTR CLOUD de PROSEGUR.
 
 ### Requisitos de despliegue 
 
-Necesitas contar con Java 11 , lo puedes instalar ingresando a esta pagina de acuerdo al sistema opertivo usado [instalador](https://www.oracle.com/java/technologies/downloads/#java11)
+Necesitas contar con Java 11 , lo puedes instalar ingresando a esta pagina de acuerdo al sistema opertivo usando [instalador](https://www.oracle.com/java/technologies/downloads/#java11)
 
 Otro requisito es Maven instalado ,  se puede descargar en este [link](https://maven.apache.org/download.cgi)
 
