@@ -6,7 +6,10 @@
 Es Repositorio corresponde al equipo HTR CLOUD de PROSEGUR.
 
 
-### Requisitos de acceso
+## REQUISITOS 
+
+###Requisitos de acceso
+
 * Vpn conectada.
 * Permisos de Git.
 
@@ -25,4 +28,14 @@ Otro requisito es Maven instalado ,  se puede descargar en este [link](https://m
 	
 En caso de ser necesario el instalador de Lombok es [este](https://projectlombok.org/download)
 
+
+## Seguridad
+!Seguridad(documentation/images/seguridad.jpg)
+
+
+####Base de datos
+Se necesita registrar la IP publica de la cual se va a acceder, ademas de las credenciales de acceso. Solicite al Proyect Lider este proceso.
+
+####Vault
+Ademas de las dependencias necesarias en el proyecto sobre 
 
