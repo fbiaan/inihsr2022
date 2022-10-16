@@ -30,7 +30,7 @@ En caso de ser necesario el instalador de Lombok es [este](https://projectlombok
 
 
 ## Seguridad
-!Seguridad(documentation/images/seguridad.jpg)
+![Seguridad](documentation/images/seguridad.jpg)
 
 
 ####Base de datos
